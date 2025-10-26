@@ -81,38 +81,38 @@ import { RouterLink } from 'vue-router'
 import waveHero from '../assets/svgs/wave-hero.svg'
 import circleDecorator from '../assets/svgs/circle-decorator.svg'
 
-// const features = [
-//   {
-//     icon: '🎫',
-//     title: 'Easy Ticket Management',
-//     description: 'Create, track, and manage tickets effortlessly with our intuitive interface.'
-//   },
-//   {
-//     icon: '📊',
-//     title: 'Real-time Analytics',
-//     description: 'Get instant insights into your ticket status and team performance.'
-//   },
-//   {
-//     icon: '🔔',
-//     title: 'Smart Notifications',
-//     description: 'Stay updated with intelligent alerts and status change notifications.'
-//   },
-//   {
-//     icon: '👥',
-//     title: 'Team Collaboration',
-//     description: 'Work together seamlessly with built-in collaboration tools.'
-//   },
-//   {
-//     icon: '🎨',
-//     title: 'Customizable Workflows',
-//     description: 'Adapt the system to match your unique business processes.'
-//   },
-//   {
-//     icon: '🔒',
-//     title: 'Secure & Reliable',
-//     description: 'Your data is protected with enterprise-grade security measures.'
-//   }
-// ]
+const features = [
+  {
+    icon: '🎫',
+    title: 'Easy Ticket Management',
+    description: 'Create, track, and manage tickets effortlessly with our intuitive interface.'
+  },
+  {
+    icon: '📊',
+    title: 'Real-time Analytics',
+    description: 'Get instant insights into your ticket status and team performance.'
+  },
+  {
+    icon: '🔔',
+    title: 'Smart Notifications',
+    description: 'Stay updated with intelligent alerts and status change notifications.'
+  },
+  {
+    icon: '👥',
+    title: 'Team Collaboration',
+    description: 'Work together seamlessly with built-in collaboration tools.'
+  },
+  {
+    icon: '🎨',
+    title: 'Customizable Workflows',
+    description: 'Adapt the system to match your unique business processes.'
+  },
+  {
+    icon: '🔒',
+    title: 'Secure & Reliable',
+    description: 'Your data is protected with enterprise-grade security measures.'
+  }
+]
 </script>
 
 <style scoped>
@@ -142,14 +142,14 @@ import circleDecorator from '../assets/svgs/circle-decorator.svg'
 .circle-1 {
   top: -50px;
   right: 10%;
-  opacity: 0.3;
+  opacity: 1;
   animation: float 6s ease-in-out infinite;
 }
 
 .circle-2 {
   bottom: 100px;
   left: 5%;
-  opacity: 0.2;
+  opacity: 1;
   animation: float 8s ease-in-out infinite reverse;
 }
 
